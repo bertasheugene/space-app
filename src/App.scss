@@ -409,6 +409,10 @@ p{
   .welcome__checkbox:checked + .welcome__text {
     max-height: 200px;
     opacity: 1;
+
+    @media (max-width: 600px) {
+      max-height: 300px;
+    }
   }
 
   .welcome__label{
